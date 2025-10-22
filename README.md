@@ -1,7 +1,8 @@
 LLVM 21.1.1 on Fedora 41
 ========================
 
-This is my fork of LLVM 21.1.1 from [https://llvm.org/](https://llvm.org/) on Fedora 41. It builds with Fedora's GCC 14.3.1.
+This is my fork of LLVM 21.1.1 from [https://llvm.org/](https://llvm.org/) on Fedora 41. It builds with Fedora's GCC 14.3.1 and Python 3.13.
+You will need to install some dependencies: z3, libxml2, ocaml.
 
 The `main` branch is the canonical release from LLVM upstream, unmodified. The branch `llvm-21.1.1-fc41` is the Fedora 41 branch containing my changes.
 
